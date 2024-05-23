@@ -44,18 +44,22 @@
         <label for="message">Mensaje:</label>
         <textarea id="message" name="message"></textarea>
 
-        <label for="radio">¿Como prefieres que te contactemos?:</label>
+        <label for="contact-method">¿Como prefieres que te contactemos?:</label>
 
-        <label for="Email">
-          <input type="radio" id="radio" name="email" value="Por email" />Por
-          Email
-        </label>
-
-        <label for="Whatsapp">
+        <label for="email">
           <input
             type="radio"
-            id="radio"
-            name="Whatsapp"
+            id="email"
+            name="contact-method"
+            value="Por email"
+          />Por Email
+        </label>
+
+        <label for="whatsapp">
+          <input
+            type="radio"
+            id="whatsapp"
+            name="contact-method"
             value="Por Whatsapp"
           />Por Whatsapp
         </label>
@@ -67,7 +71,7 @@
         </select>
         <button type="submit">Enviar</button>
       </form>
-
+        
       <div id="contact-info">
         <h3>Información de Contacto</h3>
         <p>Dirección: Carretera Tulum, km 5, 77780 Tulum</p>
